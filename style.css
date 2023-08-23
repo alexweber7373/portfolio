@@ -14,7 +14,22 @@
   text-align: center;
 }
 
-.resume div {
+.entry{
   font-size: 10px;
   text-align: left;
+}
+
+.entry h1{
+  margin-bottom: 0px;
+}
+
+.entry ul {
+  background-color: blue;
+  font-size: 15px;
+  border-radius: 8px;
+  padding-left: 25px;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
