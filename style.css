@@ -5,3 +5,16 @@
   border-radius: 8px;
   text-align: center;
 }
+
+.resume {
+  background-color: blueviolet;
+  opacity: .80;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.resume div {
+  font-size: 10px;
+  text-align: left;
+}
