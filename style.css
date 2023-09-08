@@ -48,14 +48,18 @@
   border-radius: 10px;
 }
 
-.grid {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 }
 
-.item {
+.grid-item {
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   text-align: center;
 }
