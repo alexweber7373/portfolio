@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Boxes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <div>
-    <div class="p-8 flex justify-center items-center h-screen">
-      <h1 class="text-3xl font-sans font-bold p-8">Alexander Weber</h1>
-      <img src="images/god picture.jpg" style="width: 200px; height:200px; border-radius: 50%;" class="">
-    </div>
+<body class="bg-gray-100">
+  <!-- Profile Pic and Name -->
+  <div class="p-8 flex justify-center items-center "> 
+    <h1 class="text-3xl font-sans p-8">Alexander Weber</h1> 
+    <img src="images/god picture.jpg" style="width: 200px; height: 200px; border-radius: 50%;" class=""> 
+  </div>
+  <!-- What I have worked on... -->
+  <div class="container mx-auto py-6">
+      <h1 class="flex justify-center text-3xl font-semibold mb-4 ">What I have worked on...</h1>
+
+      <div class="flex space-x-4 justify-center">
+          <div class="w-25 h-75 bg-white p-4 rounded-lg shadow-md">
+              <!-- Box 1 Content -->
+              <h2 class="text-xl font-semibold mb-2">Spotify 'Adware'</h2>
+              <p>A mockup of Spotify's Login that harvests user credentials.</p>
+          </div>
+          <div class=" w-75 h-75 bg-white p-4 rounded-lg shadow-md">
+              <!-- Box 2 Content -->
+              <h2 class="text-xl font-semibold mb-2">FitForge</h2>
+              <p>A website that curates workouts based on user preferences.</p>
+          </div>
+          <div class="w-75 h-75 bg-white p-4 rounded-lg shadow-md">
+              <!-- Box 3 Content -->
+              <h2 class="text-xl font-semibold mb-2">Dungeon Dice</h2>
+              <p>Dungeon simulator that procedurally generates terrain.</p>
+          </div>
+      </div>
   </div>
 </body>
 </html>
